@@ -4,8 +4,8 @@ module Fog
       class DiskOffering < Fog::Model
         identity  :id,              :aliases => 'id'
         attribute :created
-        attribute :disk_size,       :aliases => 'disk_size'
-        attribute :display_text,    :aliases => 'display_text'
+        attribute :disk_size,       :aliases => 'disksize'
+        attribute :display_text,    :aliases => 'displaytext'
         attribute :domain
         attribute :domain_id,       :aliases => 'domainid'
         attribute :is_customized,   :aliases => 'iscustomized'

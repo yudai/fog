@@ -57,6 +57,7 @@ module Fog
       request :create_ssh_key_pair
       request :create_snapshot
       request :create_snapshot_policy
+      request :create_tags
       request :create_user
       request :create_volume
       request :create_zone
@@ -69,6 +70,7 @@ module Fog
       request :delete_ssh_key_pair
       request :delete_snapshot
       request :delete_snapshot_policies
+      request :delete_tags
       request :delete_template
       request :delete_user
       request :delete_volume
@@ -115,6 +117,7 @@ module Fog
       request :list_ssh_key_pairs
       request :list_storage_pools
       request :list_templates
+      request :list_tags
       request :list_usage_records
       request :list_users
       request :list_virtual_machines
